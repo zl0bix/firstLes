@@ -89,7 +89,7 @@ namespace ConsoleApp111111
             int randPrice = r.Next(1,nG);
             Console.Write("\tСколько хотите купит кристаллов по ценне "+randPrice+" ? -> ");
             int nC = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("\tВы купили " + nC+ " кристаллов " + " золота осталось " + (100-(nC*randPrice)));
+            Console.WriteLine("\tВы купили " + nC+ " кристаллов " + " золота осталось " + (nG-(nC*randPrice)));
             /*
              Задание 5:
         Вы заходите в поликлинику и видите огромную очередь из старушек, вам нужно рассчитать
